@@ -1,0 +1,56 @@
+@import '../../../vars';
+
+.InformationSection {
+    position: relative;
+    padding: 80px 45px;
+    display: flex;
+
+    .LeftBlock {
+        position: relative;
+        display: block;
+        width: 45%;
+        height: 450px;
+        background: $bg-color;
+    }
+
+    .RightBlock {
+        width: 65%;
+        padding: {
+            left: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $font-Jost;
+            line-height: 25px;
+            font-size: 20px;
+
+            span {
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .InformationSection {
+        flex-wrap: wrap;
+
+        .LeftBlock {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .RightBlock {
+            width: 100%;
+            padding: {
+                left: 0
+            }
+        }
+    }
+}

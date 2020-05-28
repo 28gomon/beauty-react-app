@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUQ,mLAA2K;AAC3K,2IAAmI;AACnI,4FAAoF;AACpF,6FAAqF;ACX7F,KAAM;EACF,QAAQ,EAAE,QAAQ;;AAGtB,OAAQ;EACJ,OAAO,EAAE,YAAW;EACpB,gBAAgB,EAAE,sBAAsB",
+"sources": ["../../../_vars.scss","Menu.module.scss"],
+"names": [],
+"file": "Menu.module.css"
+}

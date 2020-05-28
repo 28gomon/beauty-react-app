@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.Logo {
+  display: block;
+  padding: 20px 30px; }
+
+.drawer-logo {
+  text-align: center; }
+  .drawer-logo a {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    display: block; }
+    .drawer-logo a span {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      font-size: 13px;
+      font-weight: 300;
+      font-family: "Jost", sans-serif;
+      text-transform: uppercase;
+      opacity: .85;
+      letter-spacing: .2px; }
+      .drawer-logo a span:after {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        background-color: rgba(30, 17, 24, 0.75);
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.15); }
+
+/*# sourceMappingURL=Logo.module.css.map */

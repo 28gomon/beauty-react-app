@@ -1,0 +1,31 @@
+@import '../../vars';
+
+.Phone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    li {
+        margin: 0;
+        padding-left: 0;
+        list-style-type: none;
+        a {
+            color: rgba($main-white, .75);
+            padding: {
+                top: 12px;
+                left: 32px;
+                right: 32px;
+                bottom: 12px;
+            }
+            border-radius: 5px;
+            border: 1px solid rgba($main-white, .30);
+            background-color: rgba($main-white, .05);
+            transition: background-color .25s ease-in-out;
+            &:hover {
+                background-color: rgba($main-white, .15);
+                border: 1px solid rgba($main-white, .35);
+            }
+        }
+    }
+}

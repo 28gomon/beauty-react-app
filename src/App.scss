@@ -1,0 +1,61 @@
+@import "vars";
+
+h1, h2, h3, h4 {
+    font: {
+        family: "Merriweather", serif;
+        weight: 400;
+    }
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    transition: color .25s ease-in-out;
+    &:hover {
+        color: $text-color;
+    }
+}
+
+p {
+    font: {
+        family: "Jost", sans-serif;
+        size: 30px;
+    }
+    letter-spacing: .2px;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.button {
+    width: auto;
+    margin: {
+        top: 30px;
+        bottom: 30px;
+    }
+    line-height: 100%;
+    height: auto;
+    button, a {
+        padding: 15px 32px;
+        background-color: $main-brown;
+        margin-top: 30px;
+        color: $main-white;
+        border-radius: 5px;
+        border: 2px solid rgba($main-white, .15);
+        transition: background-color .25s ease-in-out;
+        font-size: 20px;
+        &:hover, &:active, &:focus {
+            background-color: rgba($main-brown, .90);
+            outline: none;
+            border: 2px solid rgba($main-white, .05);
+        }
+    }
+}

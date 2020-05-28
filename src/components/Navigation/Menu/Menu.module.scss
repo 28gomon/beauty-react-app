@@ -1,0 +1,10 @@
+@import '../../../vars';
+
+.Menu {
+    position: relative;
+}
+
+.active {
+    opacity: 1!important;
+    background-color: rgba($text-color, .35);
+}

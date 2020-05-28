@@ -1,0 +1,42 @@
+@import "../../../vars";
+
+.Logo {
+    display: block;
+    padding: 20px 30px;
+}
+
+.drawer-logo {
+    text-align: center;
+    a {
+        color: $main-white;
+        font: {
+            size: 50px;
+            family: $font-logo;
+        }
+        display: block;
+        span {
+            position: relative;
+            margin-top: 10px;
+            display: block;
+            font: {
+                size: 13px;
+                weight: 300;
+                family: $font-Jost;
+            }
+            text-transform: uppercase;
+            opacity: .85;
+            letter-spacing: .2px;
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 1px;
+                background-color: rgba($text-color, .75);
+                top: -8px;
+                left: 50%;
+                transform: translateX(-50%);
+                box-shadow: 0 1px 1px rgba($main-white, .15);
+            }
+        }
+    }
+}

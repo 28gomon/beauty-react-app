@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,iBAAO;EACH,MAAM,EAAE,OAAO;EACf,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,8BAA0B",
+"sources": ["BtnButton.module.scss"],
+"names": [],
+"file": "BtnButton.module.css"
+}

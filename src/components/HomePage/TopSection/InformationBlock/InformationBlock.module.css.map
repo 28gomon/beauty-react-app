@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAkB;EACd,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["InformationBlock.module.scss"],
+"names": [],
+"file": "InformationBlock.module.css"
+}

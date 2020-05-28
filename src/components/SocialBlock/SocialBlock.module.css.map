@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACT,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;EACjB,eAAe,EAAE,aAAa;EAE1B,UAAG,EAAE,IAAI;EACT,aAAM,EAAE,IAAI;EAEhB,OAAO,EAAE,MAAM",
+"sources": ["SocialBlock.module.scss"],
+"names": [],
+"file": "SocialBlock.module.css"
+}

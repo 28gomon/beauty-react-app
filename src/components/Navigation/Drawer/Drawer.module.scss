@@ -1,0 +1,73 @@
+@import '../../../vars';
+
+.Drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 320px;
+    height: 100%;
+    background-color: $main-brown;
+    transition: left .25s ease-in-out;
+    overflow: auto;
+    z-index: 22;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url("./yellow-wall.jpg");
+        z-index: -1;
+        opacity: .12;
+    }
+    .Wrapper {
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        ul {
+            margin: {
+                left: 0;
+                top: 50px;
+            }
+            li {
+                width: 100%;
+                display: block;
+                a {
+                    display: block;
+                    //width: 100%;
+                    padding: {
+                        left: 40px;
+                        top: 10px;
+                        bottom: 10px;
+                    }
+                    color: $main-white;
+                    opacity: .75;
+                    font: {
+                        size: 20px;
+                    }
+                    transition: opacity, background-color .25s ease-in-out;
+                    &:hover {
+                        opacity: 1;
+                        background-color: rgba($text-color, .35);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .Drawer {
+        left: -320px;
+    }
+}
+
+.close {
+    left: 0
+}

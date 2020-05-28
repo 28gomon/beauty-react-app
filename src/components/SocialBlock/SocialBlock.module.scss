@@ -1,0 +1,11 @@
+.SocialBlock {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: {
+        top: 50px;
+        bottom: 50px;
+    }
+    padding: 0 40px;
+}

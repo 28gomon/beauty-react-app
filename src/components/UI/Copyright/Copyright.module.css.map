@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUQ,mLAA2K;AAC3K,2IAAmI;AACnI,4FAAoF;AACpF,6FAAqF;ACX7F,UAAW;EACP,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,eAAK;IACD,KAAK,EDJA,OAAO;ICKZ,OAAO,EAAE,GAAG",
+"sources": ["../../../_vars.scss","Copyright.module.scss"],
+"names": [],
+"file": "Copyright.module.css"
+}

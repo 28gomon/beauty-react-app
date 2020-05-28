@@ -1,0 +1,11 @@
+@import "../../../vars";
+
+.Copyright {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    span {
+        color: $main-white;
+        opacity: .75;
+    }
+}
